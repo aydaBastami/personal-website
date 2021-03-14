@@ -1,0 +1,111 @@
+body {
+    background:url(back.jpg) no-repeat center ;
+    background-size: 1950px 1800px;
+    margin: 10px;
+    padding: 0px;
+    font-family: cursive;
+    font-size: 13px;
+    direction: rtl;
+}
+.container{
+    width: 800px;
+    margin: 0px auto;
+    background: rgb(44, 73, 77);
+}
+.container .header{
+    height: 136px;
+    background: url(HellRe_1200x500.jpg) no-repeat;
+    background-size: contain;
+    border: 4mm ridge rgb(66, 111, 114);
+}
+.container .header .sitetitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+    position: relative;
+    top: 15px; right: 10px;
+}
+.container .header .sitedescription{
+    position: relative;
+    top: 15px; right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.container .blockmenu .topmenu{
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(3, 70, 70);
+    border-top: solid white 1px;
+    border-bottom: solid white 1px ;
+    float: right;
+}
+.container .blockmenu .topmenu li{
+    display: inline;
+    padding: 9px 11px;
+    border-left: 1px solid white;
+    float: right;
+}
+.container .blockmenu .topmenu li a{
+    color: white;
+    text-decoration: none;
+}
+.container .blockmenu .topmenu li:hover{
+    background-color: rgb(1, 139, 123);
+}
+.content .rightside{
+    width: 250px;
+    background-color: rgba(104, 173, 173, 0.829);
+    padding: 10px;
+    float: right;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.content .leftside{
+    width: 550px;
+    background-color: rgba(203, 231, 231, 0.767);
+    padding: 10px;
+    float: right;
+    box-sizing: border-box;
+}
+.content .leftside .title{
+   font-size: 15px;
+   font-weight: bold;
+}
+.content .leftside .textone{
+    direction: ltr;
+    text-align: justify;
+    
+}
+.content .rightside .subtitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+.content .rightside .texttwo{
+    font-size: 12px;
+}
+.content .leftside .titletwo{
+    font-size: 15px;
+    font-weight: bold;
+}
+.content .subtitle2{
+    font-size: 15px;
+    font-weight: bold;
+}
+.content .leftside .titletow{
+    background: rgba(124, 190, 190, 0.781);
+    padding: 10px;
+}
+.content .rightside .menubox .image{
+    width: 210px;
+    border-radius: 20%;
+    padding-top: 10px;
+}
+.content .rightside .menubox{
+    background: rgba(55, 99, 99, 0.74);
+    padding: 10px;
+    color: rgb(1, 39, 38);
+}
+.container .blockmenu .search{
+    float: right;
+}
